@@ -47,4 +47,13 @@ let stringValue2= String(value2)
 console.log(stringValue2);
 console.log(typeof stringValue2);
 
+console.log(+true) // returns 1 but it is bad practice to write it in such a way
 
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 2  // declaring same values to the variables 
+
+let Counter = 100
+++Counter;
+console.log(Counter);
