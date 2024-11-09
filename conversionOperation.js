@@ -35,7 +35,7 @@ let isMarried = 1
 
 let booleanIsMarried = Boolean(isMarried)
 
-console.log(booleanIsMarried);  //true and false for 0 
+console.log(booleanIsMarried);  //true for 1 and false for 0 
  // false for "" empty string 
  // true for "yamini"
 
