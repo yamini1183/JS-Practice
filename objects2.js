@@ -68,3 +68,25 @@ const users = [
 console.log(users[1].email); //a@gmail.com
 
 // the above code is used for getting different users info and fetching information from it 
+
+
+
+
+//Destructuring
+
+const course = {
+    coursename: "js",
+    price: "999",
+    instructor: "HC"
+}
+
+// course.instructor
+
+// const {instructor} = course
+// console.log(instructor); // HC
+
+// you can even destructure the instructor by below syntax
+
+const {instructor: courseInstructor} = course
+
+console.log(courseInstructor); //HC
