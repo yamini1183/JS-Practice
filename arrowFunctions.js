@@ -35,11 +35,15 @@ user.welcomeMessage() // yadav, welcome to website
 
 
 //ARROW FUNCTIONS
-const chai = () => {
-    
+//EXPLICIT RETURN
+const addTwo = (num1,num2) => {
+    return num1 + num2
 }
+console.log(addTwo(3,4)) //7
 
+//IMPLICIT RETURN 
+//arrow functions can also be declared without using parenthesis {} and we dont have to use "return"
+const subTwo = (num1, num2) => (num1 - num2)
 
+console.log(subTwo(8,4)); //4
 
-
-//node arrowFunctions.js
